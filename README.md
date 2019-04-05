@@ -28,9 +28,9 @@ Seed: `a mediocre table introduces a misty gnat`
 
 To run this tool, you need a working graphics card and need to have LÖVE installed, which is very easy (www.love2d.org). This application was tested with LÖVE 11.2 on Ubuntu 18.04 and Windows 10. You also need a GPU capable of rendering a fullscreen 3D image realtime - although older cards, while not as performant, are still able to run this tool.
 
-## How to run
+## How to install/run
 
-Start this program using the normal way for starting any LÖVE application. **The application may hang up for a few seconds while generating required data.**
+No installation is required, simply clone this repository (or download as a ZIP) and go into the directory, where you should see the scripts. Start using the normal way for starting any LÖVE application:
 
 To run, for example on Linux, enter this command inside the directory containing the source:
 ```
@@ -40,6 +40,8 @@ love .
 You can also start this application using a file explorer, by dragging the directory containing the source code into the `love.exe` executable file (or it's shortcut) provided with the LÖVE download.
 
 For more information on running LÖVE based applications, refer to [this guide](https://love2d.org/wiki/Getting_Started).
+
+After running/generating a new world, **the application may hang up for a few seconds while calculating the required data.**
 
 **IMPORTANT:** This application is GPU-extensive and may slow down older computers.
 
