@@ -40,6 +40,10 @@ The height map is sampled using a very simple, brute force approach of sampling 
 
 For a world point calculated by sphere tracing, a surface point on the ray is calculated analytically, and then the height map is sampled at that point to generate accurate water shading, taking into account the proper depth and shadowing at that point.
 
+## Phrase/seed generation
+
+A collection of 1024 nouns, 512 adjectives and 4096 was selected, and using these, a phrase can be generated in a form of `a/an (adjective) (noun) (verb)s a/an (adjective) (noun)` from a seed, for a total of 2^53 possible phrases. Due to the constricted collection and generation, this process can be reversed to transform a phrase into a seed. As language is public domain, feel free to use the [phrase generating module](gentext.lua) in your project.
+
 ## Limitations
 
 * Currently, generated worlds are size limited. A height map is 2048x2048, which is rendered as 300 world units, which at normal speed gives 300 seconds = 5 minutes of walking edge to edge and a precision of 300/2048 ≈ 0.15 world units for a pixel. These values were chosen through experimentation and should be sufficient.
