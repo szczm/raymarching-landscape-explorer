@@ -30,6 +30,8 @@ To run this tool, you need a working graphics card and need to have LÖVE instal
 
 ## How to install/run
 
+**IMPORTANT:** Standalone executable files will be added to the repository very soon.
+
 No installation is required, simply clone this repository (or download as a ZIP) and go into the directory, where you should see the scripts. Start using the normal way for starting any LÖVE application:
 
 To run, for example on Linux, enter this command inside the directory containing the source:
