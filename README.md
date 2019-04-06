@@ -2,7 +2,7 @@
 
 ![collage](https://raw.githubusercontent.com/szczm/raymarching-landscape-explorer/master/screenshots/collage_compressed.jpg)
 
-A fully procedural 3D landscape explorer that I developed in a few days in 2018. It uses raymarching (sphere tracing) to render the environment. Various parameters and textures are generated, which are then used to create a possible total of **2^53 = 9007199254740992** (over nine quadrillion) painterly shaded, unique landscapes. The generated parameters are only weakly restricted as to focus more on the artistic, rather than realistic, outcomes. The size of this repository (including screenshots) is less than 0.5 MB.
+A small, fully procedural 3D landscape explorer that I developed in few spare days in 2018. It uses raymarching (sphere tracing) to render the environment. Various parameters and textures are generated, which are then used to create a possible total of **2^53 = 9007199254740992** (over nine quadrillion) painterly shaded, unique landscapes. The generated parameters are only weakly restricted as to focus more on the artistic, rather than realistic, outcomes. The size of this repository (including screenshots) is less than 0.5 MB.
 
 ## Screenshots
 
