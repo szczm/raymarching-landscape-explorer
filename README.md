@@ -92,7 +92,7 @@ Also, feel free to send me any interesting worlds you discovered! You're also ve
 * Fix artifacts - some small artifacts are rendered, especially on boundaries, and extreme hills/valleys can be often rendered improperly. Also, the height map sometimes gets clipped, generating a see through hole in the ground.
 * Improve shading - the shading is experimental (as in, artistically), especially the lighting during noon/midnight is very uniform and shadows sometimes are low quality. Some things can also be added, such as water reflections and post processing.
 * Code quality/readability - it could be improved. About 95% of code was written with no thought of ever sharing it.
-* World variance - right now many worlds are quite similar. A simple method, which would restrict a world slightly (while not affecting all possible worlds globally), could be implemented (such as a factor that would lower the possible range of colours for a given world). Also, more parameters can be randomized, thus further differentiating the worlds.
+* World variance - right now many worlds are quite similar. A simple method, which would restrict a world slightly (while not affecting all possible worlds globally), could be implemented (such as a factor that would lower the possible range of colours for a given world). Also, more parameters can be randomized, thus further differentiating the worlds, and more elements could be added, such as stars and other planets in the sky.
     - Vegetation - this is a work in progress and is currently just a colour change, but could be made more three-dimensional and more varied.
 
 ## Authors
