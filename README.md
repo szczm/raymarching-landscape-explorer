@@ -1,4 +1,5 @@
 # 3D procedural raymarching landscape explorer
+> developed by [@szczm_](https://twitter.com/szczm_)
 
 ![collage](https://raw.githubusercontent.com/szczm/raymarching-landscape-explorer/master/screenshots/collage_compressed.jpg)
 
