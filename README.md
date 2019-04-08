@@ -43,18 +43,18 @@ No installation is required, simply download the right version for your computer
 
 **WARNING:** After running/generating a new world, **the application may hang up for a few seconds while calculating the required data.**
 
-#### Windows
+### Windows
 
 Download [32-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win32.zip) or [64-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win64.zip), unpack and run `raymarching-landscape-generator-win32.exe` (or `win64`).
 
-#### Linux
+### Linux
 
 Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) and (provided you have [installed LÖVE](https://github.com/szczm/raymarching-landscape-explorer#prerequisites)) run the package using:
 ```
 love raymarching-landscape-generator.love
 ```
 
-#### macOS / alternative method
+### macOS / alternative method
 
 Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) (or clone this repository) and using a file explorer, drag the package/directory containing the source code into the `love` application bundle (provided with the LÖVE download), the `love.exe` executable file or it's shortcut.
 
