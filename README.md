@@ -71,6 +71,7 @@ For more information on running LÖVE based applications, refer to [this guide](
 * **F2** - generate a new world from a provided seed
 * **F3** - toggle debug mode (explained below)
 * **F4** - set time of day to noon
+* **F5** - toggle help
 
 #### Debug mode
 
@@ -101,7 +102,7 @@ This is very much a work in progress and any contributions are welcome. If you f
 Also, feel free to send me any interesting worlds you discovered! You're also very welcome to include the seed phrase (you can find it in the debug mode) using the contact information included below.
 
 ### To-do
-* Standalone executable (Windows/macOS/Linux) - this is very easy to do, but first an interface for inputing phrases (or any text input) is required.
+* Input - an interface for inputing phrases (or any text input) is required, to replace current prompt typing.
 * Optimization - both for data generation and shading. The current approach for sampling the height map texture during sphere tracing is a brute force and is inefficent. Generation is single threaded and slow. Also, height maps are used as gray scale, while technically taking up 4 times as much needed memory (`rgba16`).
 * Fix artifacts - some small artifacts are rendered, especially on boundaries, and extreme hills/valleys can be often rendered improperly. Also, the height map sometimes gets clipped, generating a see through hole in the ground.
 * Improve shading - the shading is experimental (as in, artistically), especially the lighting during noon/midnight is very uniform and shadows sometimes are low quality. Some things can also be added, such as water reflections and post processing.
