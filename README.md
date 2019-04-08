@@ -49,7 +49,7 @@ Download [32-bit version here](https://github.com/szczm/raymarching-landscape-ex
 
 #### Linux
 
-Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) and (provided you have (installed LÖVE)[#prerequisites]) run the package using:
+Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) and (provided you have [installed LÖVE](https://github.com/szczm/raymarching-landscape-explorer#prerequisites)) run the package using:
 ```
 love raymarching-landscape-generator.love
 ```
