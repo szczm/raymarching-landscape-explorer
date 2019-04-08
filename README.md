@@ -47,7 +47,7 @@ No installation is required, simply download the right version for your computer
 
 Download [32-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win32.zip) or [64-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win64.zip), unpack and run `raymarching-landscape-generator-win32.exe` (or `win64`).
 
-To input seed phrases, you need to launch the application from a prompt.
+To input seed phrases, you need to launch the application from a command prompt.
 
 ### Linux
 
