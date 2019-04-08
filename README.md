@@ -47,6 +47,8 @@ No installation is required, simply download the right version for your computer
 
 Download [32-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win32.zip) or [64-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win64.zip), unpack and run `raymarching-landscape-generator-win32.exe` (or `win64`).
 
+To input seed phrases, you need to launch the application from a prompt.
+
 ### Linux
 
 Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) and (provided you have [installed LÖVE](https://github.com/szczm/raymarching-landscape-explorer#prerequisites)) run the package using:
