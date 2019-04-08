@@ -5,6 +5,8 @@
 
 A small, fully procedural 3D landscape explorer that I developed in few spare days in 2018. It uses raymarching (sphere tracing) to render the environment. Various parameters and textures are generated, which are then used to create a possible total of **2^53 = 9007199254740992** (over nine quadrillion) painterly shaded, unique landscapes. The generated parameters are only weakly restricted as to focus more on the artistic, rather than realistic, outcomes. The size of this repository (including screenshots) is less than 0.5 MB.
 
+**CAUTION:** This is an experimental, work in progress tool that I'm working on from time to time. Also, it's focused more on exploring the realm of possibilities, so don't expect beautiful, photorealistic landscapes or consistent results. *You have been warned*.
+
 ## Screenshots
 
 ![screenshot](https://raw.githubusercontent.com/szczm/raymarching-landscape-explorer/master/screenshots/a_bright_surfboard_records_a_cooked_summerhouse.jpg)
