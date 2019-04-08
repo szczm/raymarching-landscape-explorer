@@ -29,24 +29,36 @@ Seed: `a mediocre table introduces a misty gnat`
 
 ## Prerequisites
 
-To run this tool, you need a working graphics card and need to have LÖVE installed, which is very easy (www.love2d.org). This application was tested with LÖVE 11.2 on Ubuntu 18.04 and Windows 10. You also need a GPU capable of rendering a fullscreen 3D image realtime - although older cards, while not as performant, are still able to run this tool.
+To run this tool, you just need a working graphics card and (probably) up to date drivers.
+
+**Linux**: You need to have LÖVE installed, which is very easy (www.love2d.org).
+
+This application was tested with LÖVE 11.2 on Ubuntu 18.04 and Windows 10.
+
+Your GPU should be capable of rendering a fullscreen 3D image realtime - although older cards, while not as performant, are still able to run this tool.
 
 ## How to install/run
 
-**IMPORTANT:** Standalone executable files will be added to the repository very soon.
+No installation is required, simply download the right version for your computer below:
 
-No installation is required, simply clone this repository (or download as a ZIP) and go into the directory, where you should see the scripts. Start using the normal way for starting any LÖVE application:
+**WARNING:** After running/generating a new world, **the application may hang up for a few seconds while calculating the required data.**
 
-To run, for example on Linux, enter this command inside the directory containing the source:
+#### Windows
+
+Download [32-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win32.zip) or [64-bit version here](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator-win64.zip), unpack and run `raymarching-landscape-generator-win32.exe` (or `win64`).
+
+#### Linux
+
+Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) and (provided you have (installed LÖVE)[#prerequisites]) run the package using:
 ```
-love .
+love raymarching-landscape-generator.love
 ```
 
-You can also start this application using a file explorer, by dragging the directory containing the source code into the `love.exe` executable file (or it's shortcut) provided with the LÖVE download.
+#### macOS / alternative method
+
+Download [.love package](https://github.com/szczm/raymarching-landscape-explorer/raw/master/raymarching-landscape-generator.love) (or clone this repository) and using a file explorer, drag the package/directory containing the source code into the `love` application bundle (provided with the LÖVE download), the `love.exe` executable file or it's shortcut.
 
 For more information on running LÖVE based applications, refer to [this guide](https://love2d.org/wiki/Getting_Started).
-
-After running/generating a new world, **the application may hang up for a few seconds while calculating the required data.**
 
 **IMPORTANT:** This application is GPU-extensive and may slow down older computers.
 
