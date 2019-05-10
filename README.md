@@ -118,7 +118,7 @@ Also, feel free to send me any interesting worlds you discovered! You're also ve
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
